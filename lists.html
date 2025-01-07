@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Understanding lists in HTML</title>
+	<style>
+		body{ 
+		font-family:Arial,sans-serif;
+		background-color:#f4f4f4;
+		color:#333;
+		line-height:1.6;
+		margin:20px;
+		 }
+		 h1,h2,h3{
+		 	color: #333;
+		 }
+		 ul,ol,dl{
+		 	margin-left: 20px;
+		 }
+		 dt{
+		 	font-weight: bold;
+		 }
+		 dd{
+		 	margin-left: 20px;
+		 }
+		</style>
+	</head>
+	<body>
+		<h1>Understanding lists in HTML</h1>
+		<p>In HTML,lists are used to group related items.there are three main types of lists:
+		unorederd list,ordered list,and definition lists.lists can also be nested within each other.</p>
+		<h2>Unordered List(Bullet List)</h2>
+		<p>An Unorderd List(Bullet list)is a list where the order of the items doesnt matter.It is usually displayed with bullet points.</p>
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+			<li>item 4
+				<ol>
+					<li>ordered sub-item1</li>
+					<li>ordered sub-item2</li>
+					<li>ordered sub-item3</li>
+				</ol>
+			</li>
+		</ul>
+		<h2>Ordered list(Numbered list)</h2>
+		<p>An ordered list is a list where the order of the items matters.It is usually displayed of the items mattters.It is usually displayed with numbersor letters</p>
+		<ol>
+			<li>first item</li>
+			<li>second item
+				<ul>
+					<li>Unoredred sub-item1</li>
+					<li>Unorederd sub-item2</li>
+					<li>Unordered sub-item3</li>
+				</ul>
+			</li>
+			<li> Third item</li>
+			<li>fourth item</li>
+		</ol>
+		<h2>Definition list</h2>
+		<p>A definition list is a list of terms and their corresponding definitions.</p>
+		<ol>
+			<li>First item</li>
+			<li>second item
+				<ul>
+					<li>Unordered sub-item1</li>
+					<li>Unordered sub-item2</li>
+					<li>Unordered sub-item3</li>
+				</ul>
+			</li>
+			<li>Third item</li>
+			<li>fourth item</li>
+		</ol>
+		<h2>Definition list</h2>
+		<p>A definition list is a list of terms and their corresponding definitions.</p>
+		<dl>
+			<dt>HTML</dt>
+			<dd>Hyper Text Markup Language,the standard language for creating web pages.</dd>
+			<dt>cascading style sheets,used to style HTML elements.</dt>
+			<dt>Java script</dt>
+			<dd>A programming language used to create dynamic and interactive effects within web browsers.</dd>
+			<dt>Nested Definition list</dt>
+			<dd>
+				<dl>term 1</dl>
+				   <dd>Definition for term 1</dd>
+				   <dt>term2</dt>
+				   <dd>definition for term2</dd>
+				</dl>
+			</dd>
+		</dl>
+		<h2>combining lists</h2>
+		<p>lists can be combined and nestted to create complex structures.there is an example</p>
+		<ul>
+			<li>sub-item in an unoredered list
+				<ol>
+					<li>ordered sub-item in an unoredered list</li>
+					<li>Another oredered sub-item</li>
+				</ol>
+			</li>
+		</ul>
+		<li>Another item with nested definitionlist</li>
+	</dl>
+</li>
+</ul>
+</body>
+</html>
